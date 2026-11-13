@@ -5,9 +5,8 @@
 > for CPU feature detection (offered upstream as [zeebo/xxh3#36](https://github.com/zeebo/xxh3/pull/36)) and in pinning `golang.org/x/sys`
 > to the version pfBlockerNG builds with. Hash output is identical to upstream.
 
-[![GoDoc](https://godoc.org/github.com/zeebo/xxh3?status.svg)](https://godoc.org/github.com/zeebo/xxh3)
-[![Sourcegraph](https://sourcegraph.com/github.com/zeebo/xxh3/-/badge.svg)](https://sourcegraph.com/github.com/zeebo/xxh3?badge)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zeebo/xxh3)](https://goreportcard.com/report/github.com/zeebo/xxh3)
+[![Go Reference](https://pkg.go.dev/badge/github.com/pfBlockerNG/xxh3.svg)](https://pkg.go.dev/github.com/pfBlockerNG/xxh3)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pfBlockerNG/xxh3)](https://goreportcard.com/report/github.com/pfBlockerNG/xxh3)
 
 This package is a port of the [xxh3](https://github.com/Cyan4973/xxHash) library to Go.
 
