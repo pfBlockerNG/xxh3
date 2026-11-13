@@ -1,10 +1,10 @@
-module github.com/zeebo/xxh3
+module github.com/pfBlockerNG/xxh3
 
-go 1.22
+go 1.26.0
 
 require (
 	github.com/zeebo/assert v1.3.0
-	golang.org/x/sys v0.30.0
+	golang.org/x/sys v0.49.0
 )
 
-replace github.com/zeebo/xxh3/avo => ./avo
+replace github.com/pfBlockerNG/xxh3/avo => ./avo

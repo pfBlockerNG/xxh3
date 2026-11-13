@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/cespare/xxhash"
-	"github.com/zeebo/xxh3"
+	"github.com/pfBlockerNG/xxh3"
 )
 
 var acc uint64

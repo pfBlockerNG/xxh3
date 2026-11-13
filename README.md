@@ -1,4 +1,10 @@
 # XXH3
+
+> **pfBlockerNG fork** of [zeebo/xxh3](https://github.com/zeebo/xxh3), imported as `github.com/pfBlockerNG/xxh3`.
+> It differs from upstream only in using `golang.org/x/sys/cpu` instead of `github.com/klauspost/cpuid/v2`
+> for CPU feature detection (offered upstream as zeebo/xxh3 pull request) and in pinning `golang.org/x/sys`
+> to the version pfBlockerNG builds with. Hash output is identical to upstream.
+
 [![GoDoc](https://godoc.org/github.com/zeebo/xxh3?status.svg)](https://godoc.org/github.com/zeebo/xxh3)
 [![Sourcegraph](https://sourcegraph.com/github.com/zeebo/xxh3/-/badge.svg)](https://sourcegraph.com/github.com/zeebo/xxh3?badge)
 [![Go Report Card](https://goreportcard.com/badge/github.com/zeebo/xxh3)](https://goreportcard.com/report/github.com/zeebo/xxh3)

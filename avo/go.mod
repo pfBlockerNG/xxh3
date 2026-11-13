@@ -1,4 +1,4 @@
-module github.com/zeebo/xxh3/avo
+module github.com/pfBlockerNG/xxh3/avo
 
 go 1.21.5
 
